@@ -1,0 +1,97 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+    background-color:  #0F172A;
+    overflow: auto; 
+    width:fit-content;
+}
+
+header {
+    padding: 34px 0;
+    margin-bottom: 94px;
+}
+.container {
+    max-width: 1240px;
+    margin: 0 auto; 
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.navigation ul {
+    display: flex;
+    list-style: none;
+    gap: 40px;
+}
+.navigaton li {
+    padding: 10px;
+}
+.navigation li a {
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 28px;
+    color: #f8fafc;
+    text-decoration: none;
+
+}
+.container-large{
+    max-width: 1150px;
+    height: 300px;
+    margin-left: 145px;
+    border-radius: 20px;
+    padding: 30px;
+    gap: 41px;
+
+}
+h2{
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 56px;
+    color: #F8FAFC;
+    margin-bottom: 83px;
+}
+h2 span {
+    color: #16B8F3;
+}
+.cards {
+    display: flex;
+    flex-direction: column;
+    gap: 41px;
+}
+.recent-projects {
+    padding: 40px 0;
+    margin-bottom: 40px; 
+}
+
+.latest-post {
+    width: fit-content 1440px;
+    height: fit-content 900px;
+    margin-top: 900px;
+}
+
+    
+   
+
+.container-small h2 {
+    margin-left: 150px;
+    width: 296px; 
+}
+
+.container-small {
+    max-width: 1150px;
+    height: 300px;
+    margin-left: 35px;
+    border-radius: 20px;
+    padding: 0px;
+    gap: 41px;
+}
+.footer {
+    margin-top: 900px;
+    max-width: 1240px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
